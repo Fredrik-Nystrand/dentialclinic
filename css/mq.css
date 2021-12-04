@@ -27,6 +27,9 @@
     .main-menu {
         justify-content: flex-start;
     }
+    .mobile-menu-show .main-menu ul {
+        padding-inline: 2rem;
+    }
     /* About */
     .about__stats {
         flex-direction: row;
@@ -115,6 +118,10 @@
         flex: 0.5;
         justify-content: center;
         text-align: left;
+    }
+    /* Showcase 2 */
+    .title-wrap {
+        justify-content: flex-start;
     }
     /* About */
     .about__stats {
