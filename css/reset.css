@@ -1,0 +1,100 @@
+/* ================================ RESET ================================ */
+
+
+/* Ändra box-sizing standard */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+/* Ta bort standard padding */
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+
+/* Ta bort standard margin */
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+
+/* Sätt standardvärden för body */
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+
+/* Ta bort standard list-stil från ul och ol element som har en klass */
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+
+/* A element som inte har en klass får en standard-stil */
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+
+/* Gör bilder enklare att arbeta med */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Sätt en standard för artiklars struktur */
+
+article>*+* {
+    margin-top: 1em;
+}
+
+
+/* Se till att inputs och buttons ärver typsnitt */
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+/* Ta bort alla animationer för de som föredrar att inte se dem */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

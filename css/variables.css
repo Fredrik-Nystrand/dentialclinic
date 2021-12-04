@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* ================================ Variables ================================ */
+
+:root {
+    /* Färger */
+    --clr-text-footer: #F3FBFF;
+    --clr-outline: #d2d2d2;
+    --clr-background: #f7f7f7;
+    --clr-background-dark: #163c7c;
+    --clr-placeholder-1: #dedede;
+    --clr-placeholder-2: #bfbfbf;
+    --clr-text: #626262;
+    --clr-title: #363636;
+    --clr-green: #25e6c8;
+    --clr-blue: #2baaec;
+    --clr-blue-200: rgba(43, 168, 236, 0.200);
+    --clr-blue-800: rgba(43, 168, 236, 0.800);
+    /* Typsnitt */
+    --fnt-titles: 'Roboto Slab', serif;
+    --fnt-body: 'Roboto', sans-serif;
+}
